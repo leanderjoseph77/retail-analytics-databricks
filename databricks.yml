@@ -1,0 +1,8 @@
+bundle:
+ name: retail_analytics
+include:
+ - resources/*.yml
+targets:
+ dev:
+   mode: development
+   default: true
